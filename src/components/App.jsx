@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import ClockList from './assets/ClockList';
 import Form from './assets/Form';
-import Calculator from './assets/Calculator';
+import Calculator from './Calculator';
 
 function App() {
   const [count, setCount] = useState(0)
