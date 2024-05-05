@@ -1,5 +1,4 @@
 import React from 'react';
-import BoilingVerdict from './BoilingVerdict';
 
 const scaleNames = {
     c: "Celsius",
