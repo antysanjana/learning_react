@@ -1,10 +1,14 @@
 /* eslint-disable no-unused-vars */
 import "./App.css";
-import React, { useMemo, useState } from "react";
-import { useCallback } from "react";
-import Title from "./components/Title";
-import NewButton from "./components/NewButton";
-import ShowCount from "./components/ShowCount";
+import Time from "./components/Time";
+// import Counter from "./components/NewCounter";
+import Counter from "./components/ComplexCounter";
+// import React, { useMemo, useState } from "react";
+// import Form from "./components/NewForm";
+// import { useCallback } from "react";
+// import Title from "./components/Title";
+// import NewButton from "./components/NewButton";
+// import ShowCount from "./components/ShowCount";
 // import reactLogo from "./assets/react.svg";
 // import viteLogo from "/vite.svg";
 // import ClockList from './components/ClockList';
@@ -71,7 +75,19 @@ import ShowCount from "./components/ShowCount";
       </Emoji>*/
 // }
 
+//useRef
 export default function App() {
+  return (
+    <div className="app">
+      <div>
+        <Counter />
+      </div>
+    </div>
+  );
+}
+
+//useCallBack, useMemo
+/*export default function App() {
   const [count1, setCount1] = useState(0);
   const [count2, setCount2] = useState(0);
 
@@ -113,4 +129,4 @@ export default function App() {
   //     </p>
   //   </div>
   // );
-}
+}*/
